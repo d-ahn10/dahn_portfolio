@@ -185,6 +185,12 @@ a:not([href]):not([tabindex]):focus {
   outline: 0;
 }
 
+img.resize {
+  height: 80%;
+  width: 50%;
+  transform: rotate(90deg);
+}
+
 pre,
 code,
 kbd,
