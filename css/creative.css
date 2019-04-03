@@ -16,7 +16,7 @@
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
-  --orange: #f4623a;
+  --orange: #0b228aad;
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #f4623a;
+  --primary: #1c1e7e;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -6909,7 +6909,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: #1f2435a8 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10365,6 +10365,10 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+.top-page-name {
+  text-shadow: 2px 2px #71aaf9;
+}
+
 .text-primary {
   color: #f4623a !important;
 }
@@ -10565,9 +10569,9 @@ html {
 }
 
 hr.divider {
-  max-width: 3.25rem;
+  max-width: 4.25rem;
   border-width: 0.2rem;
-  border-color: #f4623a;
+  border-color: #e7f4fd;
 }
 
 hr.light {
